@@ -17,7 +17,8 @@
 #include <errno.h>
 #include <linux/limits.h>
 
-/**###### environ ######*/
+/**###### environ ######
+ * me too*/
 
 extern char **environ;
 
