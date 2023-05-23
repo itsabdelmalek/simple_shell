@@ -5,6 +5,7 @@
  * @filename: name of the file
  * @argv: Program Name
  *
+ * output
  * Return: -1 if failed or 0 on success
  */
 void read_file(char *filename, char **argv)
