@@ -3,7 +3,6 @@
 /**
  * history - fills the files by the inputs of the user
  * @input: User Input
- * @output: on success
  *
  * Return: On success, returns 1. On failure, returns -1.
  */
