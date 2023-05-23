@@ -1,7 +1,6 @@
 #include "shell.h"
 
 /**
- * whatsthis
  * *_realloc -  Reallocates A Memory Block
  * @ptr: Pointer
  * @old_size: Previous Size Of The Pointer

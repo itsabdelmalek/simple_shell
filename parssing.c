@@ -2,7 +2,7 @@
 
 /**
  * parse_cmd - Parse Lines Of Input
- * @input: User Input To Parse
+i * @input: User Input To Parse
  *
  * Return: Array Of Char parsed
  */
@@ -27,7 +27,7 @@ char **parse_cmd(char *input)
 		tokens[a] = token;
 		token = _strtokn(NULL, "\n ");
 	}
-	tokens[a] = NULL;
 
+	tokens[a] = NULL;
 	return (tokens);
 }
