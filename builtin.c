@@ -150,5 +150,5 @@ int echo_bultn(char **cmd, int st)
 	else
 		return (print_echo(cmd));
 
-	return (1);
+	return (1)
 }
