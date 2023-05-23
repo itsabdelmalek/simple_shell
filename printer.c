@@ -7,7 +7,6 @@
  * Return: Void
  */
 void print_number(unsigned int n)
-
 {
 	unsigned int a = n;
 
