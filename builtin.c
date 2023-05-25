@@ -76,15 +76,15 @@ int change_dir(char **cmd, __attribute__((unused))int r)
  */
 int dis_envr(__attribute__((unused)) char **cmd, __attribute__((unused)) int r)
 {
-size_t a;
+	size_t a;
 	int len;
 
 	for (a = 0; environ[a] != NULL; a++)
-	{
-		len = _strlen(environ[a]);
-		write(1, environ[a], len);
-		write(STDOUT_FILENO, "\n", 1);
-	}
+		{
+			len = _strlen(environ[a]);
+			write(1, environ[a], len);
+			write(STDOUT_FILENO, "\n", 1);
+		}
 	return (0);
 }
 /**
@@ -137,7 +137,6 @@ int echo_bultn(char **cmd, int st)
 	{
 		print_number(pid);
 		PRINTER("\n");
-
 	}
 	else if (_strncmp(cmd[1], "$PATH", 5) == 0)
 	{
@@ -145,10 +144,8 @@ int echo_bultn(char **cmd, int st)
 		PRINTER(path);
 		PRINTER("\n");
 		free(path);
-
 	}
 	else
 		return (print_echo(cmd));
-
 	return (1);
 }
